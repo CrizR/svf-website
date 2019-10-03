@@ -68,6 +68,9 @@
             <a href="alumni.html">Alumni<i class="material-icons">people_outline</i></a>
         </li>
         <li class="nav-item">
+            <a href="academy.html">Academy<i class="material-icons">book</i></a>
+        </li>
+        <li class="nav-item">
             <a href="contact.html">Contact<i class="material-icons">contacts</i></a>
         </li>
 
@@ -114,6 +117,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="alumni.html">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="academy.html">Academy</a>
                     </li>
                     <li class="nav-item">
                         <a href="contact.html">Contact</a>
@@ -222,7 +228,9 @@
     $(document).ready(function () {
         $('.sidenav').sidenav();
         $('.collapsible').collapsible();
-        $(".dropdown-trigger").dropdown();
+        $(".dropdown-trigger").dropdown({
+   coverTrigger: false
+});
         $('.parallax').parallax();
     });
 </script>

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125564068-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -18,13 +19,14 @@
     <meta name="author" content="Northeastern University Student Value Fund">
 
     <title>NU Student Value Fund</title>
-    <!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="img/fav/favicon-32x32.png" sizes="32x32"/>
     <link rel="icon" type="image/png" href="img/fav/favicon-16x16.png" sizes="16x16"/>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -131,22 +133,95 @@
         </nav>
     </div>
 </header>
-<main>
-    <iframe class="airtable-embed"
-            src="https://airtable.com/embed/shr3pUp5FNUAfm5GP?backgroundColor=red&viewControls=on" frameborder="0"
-            onmousewheel="" width="100%" height="533"
-            style="background: transparent; border: 1px solid #ccc; "></iframe>
-    </div>
 
+
+<main>
+    <div style="text-align: center" class="parallax-container">
+        <div class="parallax"><img src="img/books.jpg"></div>
+        <h1 style="margin-top: 10%; color: white; font-size: 40px"><strong>SVF Academy</strong></h1>
+    </div>
+    <div style="padding: 5%;" class="section white">
+        <div class="row container">
+            <h3 class="header">Overview</h3>
+            <p class="about-font grey-text text-darken-3 lighten-3">SVF Academy is a new initiative, started in Fall
+                2018, to help strengthen students’ technical ability in regards to financial analysis, as well as
+                investment knowledge. There is no application process or attendance policy for SVF Academy, as we intend
+                for this to be a vehicle to make the fund more accessible to the general population at Northeastern.
+                Many students who attend SVF Academy are outside of the business school, are underclassmen who came into
+                college with relatively little knowledge of finance and the markets, or have an interest in finance but
+                don’t have the time to dedicate to joining the general fund. In our first official semester of operation
+                last Spring, we had 62 students sign-up and attend Academy. Of these students, 16 were women, which
+                represents approximately 26%. </p>
+            <br>
+            <h3 class="header">How it Works</h3>
+            <p class="about-font grey-text text-darken-3 lighten-3"> SVF Academy is split into 10 sessions that cover a
+                variety of qualitative and quantitative topics. A complete list of topics can be found below. We use a
+                standardized template and example company for Academy
+                sessions so all students are on the same page and can follow along with the Chief Development Officer.
+                All
+                materials, including blank and completed versions of the model, are distributed to all participants. In
+                addition,
+                last semester we also offered SVF Academy members the option to complete their own model on a company of
+                their choosing and had either the CDO or another E-Board member review and offer feedback on their work.
+                This
+                semester we plan on doing the same, and are also encouraging students to complete a one-page stock
+                pitch, in
+                addition to their model, to also strengthen their qualitative investment knowledge.</p>
+            <br>
+            <h3 class="header">Topics Covered</h3>
+            <ul style="border: none; padding: 5% 5% 0;" class="collection">
+                <li class="collection-item avatar">
+                    <i class="material-icons circle red">account_balance_wallet</i>
+
+                    Accounting Crash Course
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle green">money</i>
+                    Time Value of Money and WACC
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">trending_up</i>
+
+                    Financial Projections
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle black">group_work</i>
+                    Operating Model and Discounted Cash Flow (DCF)
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle orange">compare_arrows</i>
+                    Comparable Analysis (Comps)
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle">donut_large</i>
+
+                    Macro Company Analysis
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
 </main>
+
 <footer class="page-footer white">
     <div class="container">
         <div class="row">
             <div class="col l4 offset-l2 s12">
-                <!-- Content -->
                 <h4>Follow Us</h4>
                 <div>
-                    <a style="background: #2867B2; margin: 5px;" href="https://www.linkedin.com/company/northeastern-university-student-value-fund/"
+                    <a style="background: #2867B2; margin: 5px;"
+                       href="https://www.linkedin.com/company/northeastern-university-student-value-fund/"
                        class="waves-effect waves-light btn-floating social linkedin">
                         <i class="fa fa-linkedin"></i></a>
                     <a style="background: #4267B2; margin: 5px;" href="https://www.facebook.com/StudentValueFund/"
@@ -185,7 +260,6 @@
     </div>
 
 </footer>
-</body>
 <script>
     $(document).ready(function () {
         $('.sidenav').sidenav();
@@ -193,7 +267,8 @@
         $(".dropdown-trigger").dropdown({
    coverTrigger: false
 });
+        $('.parallax').parallax();
     });
 </script>
+</body>
 </html>
-
